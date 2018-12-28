@@ -1,4 +1,4 @@
-package pl_edu_spoj;
+package pl_edu_spoj.StringMerge;
 
 import java.util.Scanner;
 
