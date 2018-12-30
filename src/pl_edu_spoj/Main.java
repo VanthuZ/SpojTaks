@@ -1,12 +1,13 @@
 package pl_edu_spoj;
 
-import pl_edu_spoj.Suma.Suma;
-import pl_edu_spoj.ZliczaczLiter.ZliczaczLiter;
+import pl_edu_spoj.Stos.StosImplementation;
+
 
 public class Main {
 
     public static void main(String[] args) {
-        ZliczaczLiter.countLetters();
-        ZliczaczLiter.showResults();
+        StosImplementation.runStos();
     }
+
 }
+
