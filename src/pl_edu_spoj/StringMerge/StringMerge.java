@@ -1,3 +1,5 @@
+//https://pl.spoj.com/problems/PP0504B/
+
 package pl_edu_spoj.StringMerge;
 
 import java.util.Scanner;
@@ -23,11 +25,12 @@ public class StringMerge {
             }else{
                 size = a.length * 2;
             }
-            char[] c = new char[size];
 
+            char[] c = new char[size];
             int tempA = 0;
             int tempB = 0;
             int tempC = 0;
+
             while(tempC < size){
                 if(tempC % 2 == 0){
                     c[tempC] = a[tempA];
@@ -40,6 +43,5 @@ public class StringMerge {
             }
             System.out.println(c);
         }
-
     }
 }

@@ -1,10 +1,11 @@
+// https://pl.spoj.com/problems/JPESEL/
+
 package pl_edu_spoj.Pesel;
 import java.util.Scanner;
 
 public class Pesel {
 
     private static Scanner scanner = new Scanner(System.in);
-
 
     public static void peselValidate() {
 
@@ -17,7 +18,7 @@ public class Pesel {
             int sumNumberPesl;
             tabPeselChar = scanner.nextLine().toCharArray();
 
-            for (int i = 0; i < tabPeselChar.length; i++) {
+            for(int i = 0; i < tabPeselChar.length; i++) {
                 tabPesel[i] = (int) tabPeselChar[i];
             }
 
@@ -26,11 +27,9 @@ public class Pesel {
 
             if (sumNumberPesl % 10 == 0) {
                 System.out.println("D");
-            } else {
+            }else {
                 System.out.println("N");
             }
-
         }
     }
-
 }

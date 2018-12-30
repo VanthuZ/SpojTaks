@@ -1,3 +1,5 @@
+//https://pl.spoj.com/problems/SUMA/
+
 package pl_edu_spoj.Suma;
 
 import java.util.Scanner;
